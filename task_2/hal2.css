@@ -1,0 +1,72 @@
+
+header
+{
+	text-align: center;
+	background-color: gray;
+	padding: 30px;
+}
+
+table
+{
+	margin: 30pt 0 0 250pt;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+thead th
+{
+	padding: 5pt;
+	background-color: #DEB887;
+	border-top-left-radius: 10pt;
+	border-top-right-radius: 10pt;
+}
+
+tbody tr
+{
+	color: #6E6E6E;
+	background-color: #FFEBCD;
+	border-bottom: solid 1px white;
+
+}
+
+tbody td
+{
+	padding: 5pt;
+	border-left: solid #DEB887 1pt;
+	border-right: solid #DEB887 0.5pt;
+	border-bottom: solid #DEB887 0.5pt;
+}
+
+footer
+{
+	position:absolute;
+    text-align: center;
+    bottom:0;
+    width:99%;
+    height:100px;  
+    background-color: gray;
+}
+
+#goback
+{
+	text-align: center;
+	font-style: arial;
+	margin-top: 10pt;
+	margin left: 300pt;
+}
+
+a:hover
+{
+	color: orange;
+}
+
+tbody tr:hover
+{
+	color: black;
+	background-color: orange;
+}
+
+caption
+{
+	margin-bottom: 10pt;
+}

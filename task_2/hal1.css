@@ -1,30 +1,8 @@
-
 header
 {
 	text-align: center;
 	background-color: gray;
 	padding: 30px;
-}
-
-table
-{
-	margin: 30pt 0 0 250pt;
-	text-align: center;
-	border: solid 1pt;
-	border-collapse: collapse;
-}
-
-thead th
-{
-	background-color: #CACACA;
-	padding: 5pt;
-	a
-}
-
-tbody td
-{
-	border: solid 1pt;
-	padding: 5pt;
 }
 
 footer
@@ -37,9 +15,8 @@ footer
     background-color: gray;
 }
 
-#goback
+#next
 {
-
 	text-align: center;
 	font-style: arial;
 	margin-top: 10pt;
@@ -48,5 +25,18 @@ footer
 
 a:hover
 {
-color: green;
+	color: orange;
+}
+
+
+caption
+{
+	margin-bottom: 10pt;
+}
+
+
+{
+	margin-left: 200pt;
+	text-align: center;
+	background-color: blue;
 }
