@@ -15,14 +15,6 @@ footer
     background-color: gray;
 }
 
-#next
-{
-	text-align: center;
-	font-style: arial;
-	margin-top: 10pt;
-	margin left: 300pt;
-}
-
 a:hover
 {
 	color: orange;
