@@ -1,0 +1,35 @@
+1. Make the Laravel API first
+2. Install Heroku CLI -> Login (heroku login)
+3. On Laravel -> Make Procfile = web: vendor/bin/heroku-php-apache2 public/
+
+4. Init Repo with git init
+   - git init
+   - git add .
+   - git commit -m "first commit"
+
+5. Create Heroku App + Deploy Code to Heroku:
+   - heroku create -> get random name (heroku git:remote -a [app name] to change heroku app name)
+   - git remote -v -> check remote
+   - git push heroku master
+
+6. Set Config Vars for Laravel App = 
+   - APP_DEBUG(true)
+   - APP_KEY
+   - APP_NAME
+   - APP_ENV (production)
+   - APP_URL (use Heroku App URL)
+
+7. Install PostGres SQL in heroku -> On Dashboard Resources
+
+8. Set Config Vars for Database =
+   - On laravel -> heroku pg:credentials:url
+   - DB_CONNECTION (pgsql)
+   - DB_HOST
+   - DB_PORT
+   - DB_DATABASE
+   - DB_USERNAME
+   - DB_PASSWORD
+
+9. Migrate Database (On Laravel) -> heroku run php artisan migrate
+
+DONE!

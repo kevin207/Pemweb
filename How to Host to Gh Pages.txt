@@ -1,0 +1,14 @@
+npm install --save gh-pages
+define -> "homepage": "http://kevin207.github.io/MN-Property",
+
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build",
+
+git init
+git add -A
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kevin207/rudi-id.git
+	
+
+// GITHUB REFUSE BROWSER ROUTER SO WE CHANGE IT TO HASHROUTER

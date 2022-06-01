@@ -1,0 +1,126 @@
+.header {
+  padding: 1rem 0;
+  border-bottom: 1px solid black;
+  background: rgb(33, 98, 190);
+  color: white;
+}
+
+.top-link {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: white;
+}
+
+.header-title {
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.list {
+  width: fit-content;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+table,
+th,
+td {
+  padding: 0.25rem 1rem;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 0.5rem 1rem;
+  background: rgb(33, 98, 190);
+  color: white;
+  border: 1px solid black;
+}
+
+.td-wrap {
+  display: flex;
+}
+
+.img-profile {
+  width: 8rem;
+}
+
+.edit-link {
+  text-decoration: none;
+  color: white;
+  background: rgb(24, 146, 28);
+  padding: 0.25rem 0.8rem;
+  border-radius: 0.25rem;
+  border: 1px solid rgb(24, 146, 28);
+  font-size: 0.9rem;
+  transition: all ease-in 250ms;
+}
+
+.edit-link:hover {
+  color: rgb(24, 146, 28);
+  background: transparent;
+}
+
+.dlt-btn {
+  padding: 0.5rem;
+  background: rgb(224, 52, 52);
+  border: none;
+  color: white;
+  margin-left: 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  border: 1px solid rgb(224, 52, 52);
+  transition: all ease-in 250ms;
+}
+
+.dlt-btn:hover {
+  background: transparent;
+  color: rgb(224, 52, 52);
+}
+
+/* ADD STUDENT */
+.input-form {
+  width: fit-content;
+  margin: auto;
+  margin-top: 4rem;
+  padding: 3rem;
+  background: rgb(33, 98, 190);
+  color: white;
+  border-radius: 1rem;
+}
+
+.input-wrap {
+  margin-bottom: 1rem;
+}
+
+.input-field {
+  margin-top: 0.3rem;
+  padding: 0.5rem;
+  width: 20rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.btn-add {
+  padding: 0.8rem;
+  background: white;
+  color: rgb(33, 98, 190);
+  border: 1px solid beige;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(33, 98, 190);
+  transition: all ease-in 250ms;
+}
+
+.btn-add:hover {
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.error-msg {
+  color: red;
+  background: black;
+  z-index: 1;
+}
+/* ADD STUDENT */ ;
