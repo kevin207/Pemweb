@@ -1,0 +1,65 @@
+.sejarah {
+  background-color: rgb(228, 188, 159);
+  position: relative;
+  padding-top: 2%;
+
+  background-image: url(../../../../assets/sejarah.svg);
+  background-size: cover;
+}
+
+.sejarah-wrap {
+  padding: 8rem 0;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 2rem;
+
+  width: 85%;
+  margin: auto;
+}
+
+.sejarah-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(98, 214, 98);
+}
+
+.sejarah-text {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  text-align: justify;
+  width: 90%;
+  color: white;
+  font-weight: lighter;
+}
+
+.sejarah-right {
+  background: rgba(255, 255, 255, 0.904);
+  padding: 1.5rem 1rem;
+  border-radius: 10px;
+}
+
+.sejarah-right-top {
+  text-align: center;
+  color: rgb(65, 116, 53);
+  font-weight: bold;
+}
+
+.sejarah-table {
+  font-size: 0.7rem;
+  text-align: center;
+  border-collapse: collapse;
+
+  width: 99%;
+  margin: auto;
+  margin-top: 1.2rem;
+}
+
+.sejarah-table td,
+.sejarah-table th {
+  padding: 0.5rem 1rem;
+  border: 1px solid;
+}
+
+.left-align {
+  text-align: left;
+}

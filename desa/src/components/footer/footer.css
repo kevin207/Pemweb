@@ -1,0 +1,52 @@
+.footer {
+  background: white;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 3rem 8rem 1.5rem 8rem;
+}
+
+.footer-sub {
+  color: rgb(195, 55, 20);
+}
+
+.top-right {
+  text-align: right;
+}
+
+.footer-mid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6.5rem;
+}
+
+.footer-icon {
+  font-size: 2.5rem;
+  cursor: pointer;
+  transition: all ease-in 200ms;
+}
+
+.footer-icon.tiktok:hover {
+  color: #fe2c55;
+}
+
+.footer-icon.youtube:hover {
+  color: #cd201f;
+}
+
+.footer-icon.instagram:hover {
+  color: #c13584;
+}
+
+.footer-bottom {
+  padding: 1rem 0 1.5rem 0;
+  background-color: #123c4a;
+  text-align: center;
+  color: white;
+
+  font-weight: lighter;
+}

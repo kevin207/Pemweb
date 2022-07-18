@@ -1,0 +1,124 @@
+.layanan {
+  background-image: url(../../assets/layanan.svg);
+  background-size: cover;
+  color: white;
+}
+
+.layanan-wrap {
+  padding: 3rem 0 6rem 0;
+  width: 90%;
+  margin: auto;
+}
+
+.layanan-1-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.layanan-1-title {
+  font-weight: bold;
+  font-size: 2rem;
+  color: rgb(245, 193, 116);
+}
+
+.layanan-1-left-title {
+  margin-top: 1.5rem;
+  color: blanchedalmond;
+  font-weight: bold;
+}
+
+.alur {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  font-weight: lighter;
+  width: 90%;
+}
+
+.alur li {
+  margin-top: 1rem;
+}
+
+.layanan-1-right-title {
+  color: blanchedalmond;
+  margin-top: 1.5rem;
+  font-weight: bold;
+}
+
+.layanan-1-syarat {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 1rem;
+}
+
+.layanan-1-right-poin {
+  margin-bottom: 2rem;
+  font-weight: lighter;
+}
+
+.layanan-1-right-poin li {
+  margin-top: 0.5rem;
+}
+
+.layanan-1-syarat-text {
+  text-align: center;
+  font-weight: bold;
+
+  color: rgb(255, 192, 18);
+}
+
+.layanan-1-narahubung {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid white;
+}
+
+.layanan-2-title {
+  margin-top: 6rem;
+  font-weight: bold;
+  font-size: 2rem;
+  color: rgb(245, 193, 116);
+}
+
+.layanan-2-wrap {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.layanan-2-item {
+  background: rgba(0, 0, 0, 0.263);
+  padding: 1rem;
+  border-radius: 10px;
+  transition: all ease-in-out 250ms;
+}
+
+.layanan-2-item:hover {
+  background-color: rgba(0, 0, 0, 0.622);
+}
+
+.layanan-2-item-title {
+  font-weight: bold;
+  color: blanchedalmond;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.layanan-2-poin {
+  font-weight: lighter;
+  font-size: 0.8rem;
+}
+
+.layanan-2-narahubung {
+  margin-top: 3rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid white;
+}
+
+.left-narahubung {
+  color: rgb(255, 192, 18);
+}

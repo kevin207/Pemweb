@@ -1,0 +1,121 @@
+.beranda {
+  height: 90vh;
+  background-image: url(../../assets/beranda.jpg);
+  background-size: cover;
+
+  position: relative;
+  overflow-x: hidden;
+}
+
+.beranda-wrap {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 1rem;
+  align-items: center;
+
+  padding: 4rem 0rem 0rem 3rem;
+}
+
+.beranda-logo {
+  width: 18rem;
+}
+
+.beranda-title {
+  font-size: 4.5rem;
+  margin-bottom: 1rem;
+
+  background: linear-gradient(to right, #23a34c 0%, #100d0c 90%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.beranda-text {
+  font-size: 1.6rem;
+  color: rgb(64, 64, 64);
+}
+
+.welcome {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(222, 220, 220, 0.656);
+
+  padding-top: 1rem;
+  color: white;
+}
+
+.target {
+  font-size: 1.5rem;
+  animation-name: rightToLeft;
+  animation-duration: 12s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  /* color: rgb(16, 101, 15); */
+  color: rgb(255, 223, 15);
+  font-weight: lighter;
+}
+
+@keyframes rightToLeft {
+  0% {
+    transform: translateX(-700px);
+  }
+  100% {
+    transform: translateX(1400px);
+  }
+}
+
+.beranda-big-wrap {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  height: 95vh;
+  overflow: hidden;
+  border-bottom: 1px solid lightgray;
+}
+
+.video-profil {
+  padding: 4rem 4rem;
+  background: #dcdfdd;
+
+  background-image: url(../../assets/video.svg);
+  background-size: cover;
+}
+
+.video-profil-title {
+  color: rgb(125, 21, 21);
+  font-weight: bold;
+}
+
+.video-profil-wrap {
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 25rem;
+}
+
+.berita {
+  padding: 1rem;
+}
+
+.berita-title {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color: rgb(60, 86, 139);
+  font-weight: bold;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid rgb(60, 86, 139);
+  margin-bottom: 1rem;
+}
+
+.berita-wrap {
+  height: 580px;
+  padding: 0.5rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: fit-content;
+  margin: auto;
+  overflow: scroll;
+}

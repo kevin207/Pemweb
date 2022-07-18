@@ -1,0 +1,158 @@
+.bumdes {
+  padding: 5rem 0;
+  background-image: url(../../assets/bumdes.svg);
+  background-size: cover;
+  color: white;
+}
+
+.bumdes-wrap {
+  width: 90%;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+}
+
+.bumdes-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(245, 193, 116);
+}
+
+.bumdes-text {
+  font-weight: lighter;
+  text-align: justify;
+}
+
+.bumdes-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  color: black;
+}
+
+.visi-bumdes {
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10%;
+  border: 2px solid white;
+  transition: all ease 250ms;
+  height: 14.5rem;
+}
+
+.misi-bumdes {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 1rem;
+  border-radius: 10%;
+  border: 2px solid white;
+  transition: all ease 250ms;
+  height: 14.5rem;
+}
+
+.visi-bumdes:hover,
+.misi-bumdes:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.visi-bumdes-title {
+  color: rgb(131, 39, 39);
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.misi-bumdes-title {
+  color: rgb(59, 66, 121);
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.visi-bumdes-text {
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.95rem;
+}
+
+.misi-bumdes-text {
+  font-weight: lighter;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.kepemilikan-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  width: 90%;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  color: rgb(245, 193, 116);
+}
+
+.flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+
+.small-title {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.bumdes-organisasi {
+  background: rgb(215, 215, 215);
+  padding: 2rem 0;
+}
+
+.bumdes-organisasi-img {
+  width: fit-content;
+  margin: auto;
+}
+
+.peta {
+  width: 90%;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.peta-title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.6rem;
+  color: rgb(245, 193, 116);
+}
+
+.peta-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 3rem;
+  gap: 2rem;
+}
+
+.peta-1 {
+  width: 100%;
+}
+
+.peta-2 {
+  width: 100%;
+}
+
+.garis {
+  width: 90%;
+  margin: auto;
+  margin-top: 2.5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid white;
+}

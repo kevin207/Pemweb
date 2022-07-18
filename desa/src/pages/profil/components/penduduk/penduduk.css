@@ -1,0 +1,60 @@
+.penduduk {
+  background-image: url(../../../../assets/vismis.png);
+  background-size: cover;
+  padding: 6rem 0;
+}
+
+.penduduk-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.penduduk-wrap {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  gap: 3rem;
+  width: 85%;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.penduduk-text {
+  text-align: justify;
+  font-size: 1rem;
+}
+
+.penduduk-left {
+  padding: 1rem;
+  background: white;
+  border-radius: 10px;
+}
+
+.penduduk-left-title {
+  font-weight: bold;
+  text-align: center;
+  color: rgb(55, 69, 106);
+}
+
+.penduduk-table {
+  width: 99%;
+  margin: auto;
+  margin-top: 1rem;
+  font-size: 0.7rem;
+}
+
+.penduduk-table td,
+.penduduk-table th {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+.penduduk-graph {
+  width: fit-content;
+  margin: auto;
+}
+
+.penduduk-icon {
+  font-size: 13rem;
+  margin-top: 3rem;
+  color: rgb(146, 32, 19);
+}

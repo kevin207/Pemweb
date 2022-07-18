@@ -1,0 +1,31 @@
+.wilayah {
+  background-image: url(../../../../assets/wilayah.svg);
+  background-size: cover;
+  padding: 6rem 0;
+  color: white;
+}
+
+.wilayah-text {
+  font-weight: lighter;
+}
+
+.wilayah-title {
+  font-weight: bold;
+  text-align: center;
+  color: rgb(98, 214, 98);
+}
+
+.wilayah-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  margin: auto;
+  margin-top: 4rem;
+  gap: 2rem;
+
+  align-items: center;
+}
+
+.map {
+  width: 100%;
+}

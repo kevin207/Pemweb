@@ -1,0 +1,85 @@
+.potensi {
+  position: relative;
+  background-image: url(../../assets/potensi.svg);
+  background-size: cover;
+  padding: 3rem 0 5rem 0;
+}
+
+.potensi-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(245, 193, 116);
+}
+
+.potensi-small {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  width: 75%;
+  margin: auto;
+  margin-top: 1.5rem;
+}
+
+.potensi-big {
+  background-color: rgba(255, 255, 255, 0.859);
+  transition: all ease-in 200ms;
+  border-radius: 10px;
+  width: 75%;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 1.5rem;
+  padding: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.potensi-tiny {
+  background-color: rgba(255, 255, 255, 0.859);
+  transition: all ease-in 200ms;
+  border-radius: 10px;
+  width: fit-content;
+  cursor: pointer;
+  margin: auto;
+  padding: 2rem;
+  margin-top: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.potensi-big-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.potensi-item {
+  background-color: rgba(255, 255, 255, 0.859);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all ease-in 200ms;
+  cursor: pointer;
+}
+
+.potensi-item-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1rem;
+
+  color: rgb(160, 132, 88);
+  font-size: 0.9rem;
+}
+
+.item-table {
+  font-size: 0.8rem;
+  width: 90%;
+  margin: auto;
+}
+
+.item-table td {
+  padding-top: 0.5rem;
+}
+
+.potensi-item:hover,
+.potensi-big:hover,
+.potensi-tiny:hover {
+  background: white;
+}

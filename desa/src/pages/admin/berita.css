@@ -1,0 +1,146 @@
+.admin {
+  height: 100vh;
+  padding: 3rem 0;
+  background-image: url(../../assets/berita.svg);
+  background-size: cover;
+  color: white;
+}
+
+.admin-title {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.admin-wrap {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.top-link {
+  color: white;
+  background-color: rgb(209, 148, 7);
+  padding: 0.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 2px solid rgb(209, 148, 7);
+  transition: all ease-in 200ms;
+  margin-left: 5%;
+}
+
+.top-link:hover {
+  border: 2px solid rgb(209, 148, 7);
+  background: transparent;
+  color: rgb(209, 148, 7);
+}
+
+.table-berita {
+  background: white;
+  color: black;
+  border-collapse: collapse;
+}
+
+.table-berita th,
+.table-berita td {
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+
+/* TAMBAH */
+.tambah {
+  height: fit-content;
+  padding: 3rem 0 5rem 0;
+  background-image: url(../../assets/berita.svg);
+  background-size: cover;
+  color: white;
+}
+
+.tambah-title {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.tambah-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.input-form {
+  background: rgb(217, 214, 214);
+  color: black;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 75%;
+}
+
+.btn-add {
+  margin-top: 1rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+  background: green;
+  color: white;
+  border: 2px solid green;
+  transition: all ease 200ms;
+}
+
+.input-wrap {
+  margin-top: 0.5rem;
+}
+
+.input-field {
+  width: 100%;
+}
+
+.btn-add:hover {
+  background: transparent;
+  color: green;
+}
+
+.berita-img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.edit-link {
+  text-decoration: none;
+  color: white;
+  background: rgb(24, 146, 28);
+  padding: 0.6rem;
+  border-radius: 0.25rem;
+  border: 1px solid rgb(24, 146, 28);
+  transition: all ease-in 250ms;
+}
+
+.edit-link:hover {
+  color: rgb(24, 146, 28);
+  background: transparent;
+}
+
+.dlt-btn {
+  padding: 0.5rem;
+  background: rgb(224, 52, 52);
+  color: white;
+  margin-left: 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  border: 1px solid rgb(224, 52, 52);
+  transition: all ease-in 250ms;
+}
+
+.dlt-btn:hover {
+  background: transparent;
+  color: rgb(224, 52, 52);
+}
+
+.textarea {
+  resize: vertical !important;
+  width: 100%;
+}
+
+.textarea-edit {
+  resize: vertical !important;
+  width: 100%;
+  height: 12rem;
+}

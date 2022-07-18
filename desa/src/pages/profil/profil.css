@@ -1,0 +1,34 @@
+.profil {
+  height: 90vh;
+  background: rgb(205, 205, 205);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.helper-nav {
+  display: flex;
+  gap: 2rem;
+  font-size: 0.8rem;
+  justify-content: center;
+  padding: 0.6rem 0rem 0.5rem 0rem;
+
+  position: fixed;
+  z-index: 10;
+  top: 10.4vh;
+  width: 100%;
+  background: white;
+}
+
+.helper-link {
+  text-decoration: none;
+  color: black;
+  transition: all ease-in 200ms;
+  font-size: 0.7rem;
+}
+
+.helper-link:hover {
+  color: green;
+}

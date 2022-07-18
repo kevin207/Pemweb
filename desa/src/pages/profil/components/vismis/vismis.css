@@ -1,0 +1,61 @@
+.vismis {
+  background: rgb(253, 253, 253);
+  padding: 6rem 0;
+
+  background-image: url(../../../../assets/vismis.png);
+  background-size: cover;
+}
+
+.vismis-title {
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 10rem;
+}
+
+.vismis-wrap {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  gap: 3rem;
+  width: 85%;
+  margin: auto;
+
+  align-items: center;
+}
+
+.visi,
+.misi {
+  margin-top: 3rem;
+  transition: all ease-in 250ms;
+  background: rgb(255, 255, 255);
+  padding: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.visi:hover,
+.misi:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.visi-title,
+.misi-title {
+  font-weight: bold;
+}
+
+.visi-title,
+.span-visi {
+  color: rgb(55, 69, 106);
+}
+
+.misi-title,
+.span-misi {
+  color: rgb(146, 32, 19);
+}
+
+.visi-poin {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.misi-poin {
+  font-size: 0.8rem;
+}
